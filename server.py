@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-UDP Video Streaming Server
-Run on server machine (IP = 10.21.16.179)
-"""
-
 import socket, struct, cv2, time, math
 
 # ---------------- CONFIG ----------------

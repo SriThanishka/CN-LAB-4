@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-UDP Video Streaming Client (with resize so video fits window)
-Press 'q' to quit
-"""
-
 import socket, struct, cv2, numpy as np, time
 
 # ---------------- CONFIG ----------------
