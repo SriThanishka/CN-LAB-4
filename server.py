@@ -9,7 +9,7 @@ import socket, struct, cv2, time, math
 # ---------------- CONFIG ----------------
 SERVER_IP = "0.0.0.0"   # bind to all interfaces
 SERVER_PORT = 9999
-VIDEO_PATH = "movie.mp4"   # put your video file name here, or 0 for webcam
+VIDEO_PATH = "video1.mp4"   # put your video file name here, or 0 for webcam
 CHUNK_SIZE = 8192
 JPEG_QUALITY = 80
 HDR_STRUCT = "!IHHB"
@@ -73,5 +73,5 @@ def main():
         sock.close()
         print("[SERVER] Closed")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
